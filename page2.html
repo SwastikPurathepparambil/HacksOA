@@ -3,7 +3,7 @@
 <title>HOA MANAGEMENT</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <body>
 <style>
@@ -69,11 +69,27 @@
   <div class="w3-container w3-padding-32" id="announcements">
     <div class="w3-border-bottom w3-border-light-grey w3-padding-16"> <p style="font-size:38px">   Announcements </p></h3>
 
-    <div class = "w3-center"> <p style="font-size:30px"> Announcements</h3>
+    <div class = "w3-center"> <p style="font-size:30px"> <form action="/signup" method="post">
+      <label>Message:</label>
+      <textarea id="message1" name="message1" rows="4" cols="50">
+        Enter an HOA announcement here:
+        </textarea>
+        <br></br>
+      <label>Subject:</label>
+      <input type="text" name="subject1"></input>
+      <br></br>
+      
+      <div class = "w3-center"><input type="file" id="myFile" name="fileoname"> </div>
+      
+      <br></br>
+      <input type="submit" value="Send"></input>
+      <br></br>
+    </form></h3>
     </p> 
     <div class = "w3-center"> <p style="font-size:30px"> Announcements</p>
 
     </p>
+    <!---this is announcements page-->
 
 
     
