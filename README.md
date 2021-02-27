@@ -2,6 +2,6 @@
 
 
 
-App.py = control file
-Source.py = function file
-index.html = mainwebpage(editable)
+App.py = control file,
+Source.py = function file,
+index.html = mainwebpage(editable),
