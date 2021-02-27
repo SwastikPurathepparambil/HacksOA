@@ -12,7 +12,6 @@ def hello_world():
 @app.route('/signup', methods = ['POST'])
 def signup():
     email = request.form['message1']
-    sendfile = request.form['fileoname']
     subject1 = request.form['subject1']
     sendmessage([['Sandeep', 'sunny.bajamahal@gmail.com']], email, subject1)
     flash('Emails successfully sent!')
